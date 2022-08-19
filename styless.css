@@ -1,9 +1,61 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif, Sans-serif;
 }
 
 .top {
     background-color: #333553;
+    color: white;
+    padding: 20px 40px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+}
+
+h2,
+h1 {
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.placeholder {
+    align-self: center;
+    width: 350px;
+    height: 180px;
+}
+
+.tsignup {
+    background-color: #42abcbe3;
+    border: none;
+    padding: 2px 16px;
+    border-radius: 5px;
+}
+
+.button {
     color: white;
 }
