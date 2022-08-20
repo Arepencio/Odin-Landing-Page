@@ -41,12 +41,13 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin-top: 16px;
+    align-items: center;
 }
 
 .placeholder {
     align-self: center;
     width: 350px;
-    height: 180px;
+    height: 150px;
 }
 
 .tsignup {
@@ -58,4 +59,8 @@ h1 {
 
 .button {
     color: white;
+}
+
+.description {
+    font-size: small;
 }
