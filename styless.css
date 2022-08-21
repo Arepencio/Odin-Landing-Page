@@ -76,6 +76,7 @@ h3 {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 25px 45px;
 }
 
 .illustration {
@@ -99,7 +100,7 @@ h3 {
     background-color: gainsboro;
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px 40px;
 }
 
 .author{
@@ -108,5 +109,43 @@ h3 {
 }
 
 blockquote{
-    font-size: 30px;
+    font-size: 28px;
+}
+
+.action{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 20px 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.register{
+    padding: 50px 80px;
+}
+
+.lsignup{
+    display: flex;
+    flex-direction: column;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.signup{
+    background-color: cornflowerblue;
+    color: white;
+    border: 2px solid white;;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 0px 40px;
+}
+
+footer{
+    background-color: #333553;
+    color: white;
+    text-align: center;
+    padding: 40px;
 }
