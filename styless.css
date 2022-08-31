@@ -107,14 +107,14 @@ h3 {
 .image {
     background-color: white;
     border-color: blue;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     border-radius: 10px;
 }
 
 .quote{
     font-style: italic;
-    background-color: gainsboro;
+    background-color:   #8ef879  ;
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
@@ -123,15 +123,15 @@ h3 {
 
 .author{
     align-self: flex-end;
-    font-size: large;
-}
-
-blockquote{
     font-size: 28px;
 }
 
+blockquote{
+    font-size: 35px;
+}
+
 .action{
-    background-color: cornflowerblue;
+    background-color: green;
     color: white;
     padding: 20px 60px;
     border-radius: 8px;
@@ -153,7 +153,7 @@ blockquote{
 }
 
 .signup{
-    background-color: cornflowerblue;
+    background-color:  #2dbe10 ;
     color: white;
     border: 2px solid white;;
     font-weight: bold;
@@ -162,7 +162,7 @@ blockquote{
 }
 
 footer{
-    background-color: #333553;
+    background-color: #0cb415;
     color: white;
     text-align: center;
     padding: 40px;
