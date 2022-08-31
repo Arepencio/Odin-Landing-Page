@@ -1,5 +1,6 @@
 body {
     display: flex;
+    font-size: 150%;
     gap: 20px;
     flex-direction: column;
     margin: 0;
@@ -7,9 +8,10 @@ body {
 }
 
 .top {
-    background-color: #333553;
+    background-color: #0cb415;
     color: white;
     padding: 20px 80px;
+    flex: 1 0 auto;
 }
 
 a {
@@ -26,6 +28,7 @@ a {
 ul {
     list-style: none;
     display: flex;
+    align-items: center;
     padding: 0;
     margin: 0;
     gap: 10px;
@@ -33,31 +36,44 @@ ul {
 
 h2,
 h1 {
+    font-size: 60px;
     color: white;
     margin: 0;
     padding: 0;
 }
 
+.logo{
+    height: 140px;
+    width: 300px;
+
+}
+
 .title {
     display: flex;
     justify-content: space-between;
-    margin-top: 16px;
+    margin-top: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 20px;
     align-items: center;
     gap: 80px;
 }
 
 .placeholder {
     align-self: center;
-    width: 350px;
-    height: 150px;
+    width: 500px;
+    height: 300px;
     flex: 1 0 auto;
 }
 
 .tsignup {
     background-color: #42abcbe3;
     border: none;
+    font-size: 17px;
     padding: 2px 16px;
     border-radius: 5px;
+    width: 100px;
+    height: 50px;
 }
 
 .button {
@@ -65,7 +81,7 @@ h1 {
 }
 
 .description {
-    font-size: small;
+    font-size: 30px;
 }
 
 h3 {
@@ -77,6 +93,7 @@ h3 {
     justify-content: space-evenly;
     align-items: center;
     padding: 25px 45px;
+    flex: 1 0 auto;
 }
 
 .illustration {
@@ -99,6 +116,7 @@ h3 {
     font-style: italic;
     background-color: gainsboro;
     display: flex;
+    flex: 1 0 auto;
     flex-direction: column;
     padding: 20px 40px;
 }
@@ -148,4 +166,10 @@ footer{
     color: white;
     text-align: center;
     padding: 40px;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
